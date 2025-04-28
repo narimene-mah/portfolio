@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Narimène Mahboub</title>
+    <link rel="stylesheet" href="nouveau-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    
+      
+        <div class="video-background">
+            <video autoplay muted loop id="bg-video">
+                <source src="background/cc.mp4" type="video/mp4">
+                <source src="background/cc.webm" type="video/webm">
+                Votre navigateur ne supporte pas les vidéos HTML5.
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+    <header>
+        <div class="header-content">
+            <h2>"Choose a job you love, and you will never have to work a day in your life."</h2>
+                <p> Confucius</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/narimene-mah-43554519a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/narimene-mah?tab=projects"aria-label="github"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="section">
+        <div class="section-content">
+            <h2>À propos de moi</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="texte-blanc">Je m'appelle Mahboub Narimene, j'ai 26 ans. Je suis titulaire d'une licence en biochimie et d'un master en qualité des produits et sécurité alimentaire. Actuellement, je poursuis mes études en deuxième année informatique à l'université Oran 1.</p>
+                    <p>Je suis passionnée par la recherche scientifique et les technologies informatiques.</p>
+                </div>
+                <div class="about-image">
+                    <img src="image/image.jpg" alt="Photo de Narimène Mahboub">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="section-content">
+            <h2>Mes compétences</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Analyse et Contrôle Qualité</h3>
+                    <ul>
+                        <li>Analyse physico-chimique des aliments</li>
+                        <li>Contrôle microbiologique</li>
+                        <li>Gestion des non-conformités</li>
+                        <li>Méthodes HACCP</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>langagues de programmation</h3>
+                    <ul>
+                        <li>C++</li>
+                        <li>HTML</li>
+                        <li>Java</li>
+                        <li>MySQL</li>
+                        <li>Css</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Techniques de laboratoire</h3>
+                    <ul>
+                        <li>Chromatographie</li>
+                        <li>Spectrophotométrie</li>
+                        <li>Techniques microbiologiques</li>
+                        <li>Analyses sensorielles</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="section-content">
+            <h2>Mes projets</h2>
+            <div class="projects-container">
+                <div class="project-card">
+                    <h3>Stage de licence</h3>
+                    <p class="project-description"></p>
+                    <button class="project-details-btn">Voir plus</button>
+                    <div class="project-details">
+                        <p><strong>Lors de ma dernière année de licence, ai effectué un stage en laboratoire d'analyses médicales à l'hôpital, où j'ai développé des compétences en prélèvements, analyses biologiques et respect des normes d'hygiène.</strong></p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>fabrication un produit alimantaires</h3>                    
+                    <button class="project-details-btn">Voir plus</button>
+                    <div class="project-details">
+                        <p><strong>J'ai participé à un projet de fabrication et d'analyse de compote de pommes, en appliquant des méthodes de contrôle de qualité pour évaluer la texture, le goût et la conservation du produit</strong></p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>memoire de master</h3>
+                    <button class="project-details-btn">Voir plus</button>
+                    <div class="project-details">
+                        <p><strong>Dans le cadre de mon Master, j'ai réalisé un projet de recherche sur les activités biologiques de la plante médicinale Inula viscosa, en étudiant ses propriétés antimicrobiennes et antioxydantes.</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="section-content">
+            <h2>Contactez-moi</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> narimahboub@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +213791526692</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Oran, Algerie</p>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nom</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                         <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;  Narimene Mahboub. Tous droits réservés.</p>
+        <div class="footer-links">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/narimene-mah?tab=projects"><i class="fab fa-github"></i></a>
+            
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- about -->
+<div class="about">
+    <a class="bg_links social portfolio" href="https://www.rafaelalucas.com" target="_blank">
+       <span class="icon"></span>
+    </a>
+    <a class="bg_links social dribbble" href="https://dribbble.com/rafaelalucas" target="_blank">
+       <span class="icon"></span>
+    </a>
+    <a class="bg_links social linkedin" href="https://www.linkedin.com/in/rafaelalucas/" target="_blank">
+       <span class="icon"></span>
+    </a>
+    <a class="bg_links logo"></a>
+ </div>
+</body>
+</html>
