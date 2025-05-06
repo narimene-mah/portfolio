@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Narimene Mahboub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="port.css">
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay muted loop id="bg-video">
+            <source src="cc.mp4" type="video/mp4">
+            <source src="cc.mp4" type="video/webm">
+            Votre navigateur ne supporte pas les vidéos HTML5.
+        </video>
+        <div class="video-overlay"></div>
+    </div>
+    
+    <header>
+        <div class="header-content">
+            <h2>"Choose a job you love, and you will never have to work a day in your life."</h2>
+            <p>Confucius</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/narimene-mah-43554519a" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/narimene-mah" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about" class="section">
+            <div class="section-content">
+                <h2>About me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Hi my name is Mahboub I'm a dedicated student in informatics with a strong passion for computer science and research. I enjoy exploring how technology works and love diving deep into problem-solving and learning new concepts. My goal is to become a skilled developer who can create efficient, meaningful solutions.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="image.jpg" alt="Photo de Narimène Mahboub">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="section-content">
+                <h2>My skills</h2>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Adaptability and learning</h3>
+                        <ul>
+                            <li>Quick to learn new tools and concepts.</li>
+                            <li>Adapts easily to new environments.</li>
+                            <li>Open to change and innovation.</li>
+                            <li>Always eager to improve skills.</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Programming languages</h3>
+                        <ul>
+                            <li>C++</li>
+                            <li>HTML/CSS</li>
+                            <li>Java</li>
+                            <li>MySQL</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Project management</h3>
+                        <ul>
+                            <li>Able to solve problems during projects</li>
+                            <li>Comfortable using project tools</li>
+                            <li>Can handle multiple tasks efficiently</li>
+                            <li>Good at organizing team work</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="section-content">
+                <h2>My projects</h2>
+                <div class="projects-container">
+                    <div class="project-card">
+                        <h3>Gallery Project</h3>
+                        <p>Responsive image gallery with hover effects</p>
+                        <a href="galerie.html" class="project-btn">See more</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Calculator</h3>
+                        <p>CSS Grid calculator interface</p>
+                        <a href="text.html" class="project-btn">See more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="section-content">
+                <h2>Contact me</h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> narimahboub@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> +213 791 526 692</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Oran, Algeria</p>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;  Narimene Mahboub</p>
+        <div class="footer-links">
+            <a href="https://www.linkedin.com/in/narimene-mah-43554519a" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/narimene-mah" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="port.js"></script>
+</body>
+</html>
